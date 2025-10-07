@@ -73,9 +73,14 @@ By analyzing these relationships, we can build an efficient model to predict fut
 
 ### 1️⃣ Clone the repository
 ```bash
+
 git clone https://github.com/DaniSunny/Medical-Insurance-Price-Prediction.git
 cd medical-insurance-prediction
+```
 
 ### 2️⃣ Run the Streamlit App
 ```bash
+
 streamlit run app.py
+```
+- Open your brower and navigate to the url shown in the terminal
