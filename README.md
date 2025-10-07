@@ -1,4 +1,3 @@
-# Medical-Insurance-Price-Prediction
 
 # 🏥 Medical Insurance Price Prediction
 
@@ -20,7 +19,7 @@ By analyzing these relationships, we can build an efficient model to predict fut
 ---
 
 ## 📊 Dataset
-- **Source:** [Kaggle - Medical Cost Personal Dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance)
+- [📂 Download Dataset](insurance.csv)
 - **Rows:** 1,338  
 - **Columns:** 7  
 
@@ -74,5 +73,9 @@ By analyzing these relationships, we can build an efficient model to predict fut
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/username/medical-insurance-prediction.git
+git clone https://github.com/DaniSunny/Medical-Insurance-Price-Prediction.git
 cd medical-insurance-prediction
+
+### 2️⃣ Run the Streamlit App
+```bash
+streamlit run app.py
