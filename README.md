@@ -29,10 +29,10 @@ By analyzing these relationships, we can build an efficient model to predict fut
 |----------|--------------|
 | age | Age of the individual |
 | sex | Gender (male/female) |
-| bmi | Body Mass Index — ideal range 18.5 to 24.9 |
+| bmi | Body Mass Index  |
 | children | Number of dependents |
 | smoker | Smoking status (yes/no) |
-| region | Residential area in the US (northeast, southeast, etc.) |
+| region | Residential area in the US (northeast, southeast, southwest, northwest) |
 | charges | Target variable — individual medical costs billed by health insurance |
 
 ---
@@ -56,13 +56,17 @@ By analyzing these relationships, we can build an efficient model to predict fut
 ---
 
 ## 📈 Model Performance
-| Model | R² Score | MAE | RMSE |
+| Model | R² Score | MAPE | RMSE |
 |--------|-----------|------|------|
-| Linear Regression | 0.74 | 4200.35 | 6000.23 |
-| Random Forest Regressor | 0.86 | 2700.41 | 4800.10 |
-| Gradient Boosting | 0.88 | 2500.32 | 4500.21 |
 
-*(Values are indicative — replace with your actual results)*
+| Linear Regression | 0.76 | 0.4358 | 5812.10 |
+| Decision Tree Regressor | 0.71 | 0.3666 | 6460.63 |
+| Random Forest Regressor | 0.85 |  0.3200 | 4566.90 |
+| Gradient Boosting Regressor | 0.86 | 0.2869 | 4445.71 |
+| Extra Gradient Boosting Regressor | 0.83 | 0.3572 | 4941.76 |
+
+*( gradient boosting have high r2 score compared to others so use gradient boosting regressor for rest of model prediction
+)*
 
 ---
 
