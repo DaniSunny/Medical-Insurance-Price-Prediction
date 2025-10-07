@@ -55,14 +55,14 @@ By analyzing these relationships, we can build an efficient model to predict fut
 ---
 
 ## 📈 Model Performance
-| Model | R² Score | MAPE | RMSE |
-|--------|-----------|------|------|
 
-| Linear Regression | 0.76 | 0.4358 | 5812.10 |
-| Decision Tree Regressor | 0.71 | 0.3666 | 6460.63 |
-| Random Forest Regressor | 0.85 |  0.3200 | 4566.90 |
-| Gradient Boosting Regressor | 0.86 | 0.2869 | 4445.71 |
-| Extra Gradient Boosting Regressor | 0.83 | 0.3572 | 4941.76 |
+| Model                           | R² Score | MAPE   | RMSE    |
+|----------------------------------|-----------|--------|---------|
+| Linear Regression                | 0.76      | 0.4358 | 5812.10 |
+| Decision Tree Regressor          | 0.71      | 0.3666 | 6460.63 |
+| Random Forest Regressor          | 0.85      | 0.3200 | 4566.90 |
+| Gradient Boosting Regressor      | 0.86      | 0.2869 | 4445.71 |
+| Extra Gradient Boosting Regressor| 0.83      | 0.3572 | 4941.76 |
 
 *( gradient boosting have high r2 score compared to others so use gradient boosting regressor for rest of model prediction
 )*
