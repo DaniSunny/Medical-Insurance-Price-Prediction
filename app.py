@@ -57,4 +57,5 @@ if button:
     if pred>0:
         st.success(f"Predicted Price(Charge) in $:  {round(pred,2)} ")
     else:
-        st.sucess(f'Predicted Charge is 0')
+
+        st.success(f'Predicted Charge is 0')
